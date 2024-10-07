@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>pagina 3</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">pagina 1</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="pagina2.html">pagina 2</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="pagina3.html">pagina 3</a>
+                  </li>
+              </ul>
+            </div>
+        </nav>
+    </div>
+    <br>
+    <br>
+    <br>
+    <h1 style="text-align: center;">Cifratura di messaggi</h1>
+    <br>
+    <div style="text-align: center;">
+        <label for="msg0">testo in chiaro: </label>
+        <input type="text" id="msg0">
+        <br>
+        <br>
+        <label for="verme">verme: </label>
+        <input type="text" id="verme">
+        <br>
+        <br>
+        <button type="button" class="btn btn-primary" onclick="buttonHandler();">offusca!</button>
+        <br>
+        <br>
+        <label for="msg1">testo offuscato: </label>
+        <input type="text" id="msg1">
+        <br>
+        <br>
+        <button type="button" class="btn btn-primary" onclick="swap();">cambia!</button>
+        <script src='main.js'></script>
+    </div>  
+</body>
+</html>

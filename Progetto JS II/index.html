@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Quiz</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='quiz.js'></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" href="index.html">Quiz</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="pagina2.html">Matematica</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="pagina3.html">Pagina a piacere</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+    </div>
+    <div>
+        <form style="text-align: center;">
+            <h1>Quiz a risposta multipla</h1>
+
+            <h3>Quando venne inventato l'aereoplano?</h3>
+            <label for="1a">1919</label>
+            <input type="radio" name="quiz1" id="1a">
+            <br>
+            <label for="1b">1903</label>
+            <input type="radio" name="quiz1" id="1b">
+            <br>
+            <label for="1c">1899</label>
+            <input type="radio" name="quiz1" id="1c">
+            <br>
+            <br>
+
+            <h3>Chi ha inventato l'aereoplano?</h3>
+            <label for="2a">Orville e Wilbur Wright</label>
+            <input type="radio" name="quiz2" id="2a">
+            <br>
+            <label for="2b">Nikolaus August Otto</label>
+            <input type="radio" name="quiz2" id="2b">
+            <br>
+            <label for="2c">Karl Ziegler e Wallace Carothers</label>
+            <input type="radio" name="quiz2" id="2c">
+            <br>
+            <br>
+
+            <h3>Quale porta viene utilizzata per la comunicazione tramite HTTP?</h3>
+            <label for="3a">80</label>
+            <input type="radio" name="quiz3" id="3a">
+            <br>
+            <label for="3b">112</label>
+            <input type="radio" name="quiz3" id="3b">
+            <br>
+            <label for="3c">440</label>
+            <input type="radio" name="quiz3" id="3c">
+            <br>
+            <br>
+            
+            <h3>Quale porta viene utilizzata per la comunicazione tramite HTTPS?</h3>
+            <label for="4a">60</label>
+            <input type="radio" name="quiz4" id="4a">
+            <br>
+            <label for="4b">150</label>
+            <input type="radio" name="quiz4" id="4b">
+            <br>
+            <label for="4c">443</label>
+            <input type="radio" name="quiz4" id="4c">
+            <br>
+            <br>
+
+            <h3>Quale tra questi è il motore di ricerca più utilizzato?</h3>
+            <label for="5a">Yahoo</label>
+            <input type="radio" name="quiz5" id="5a">
+            <br>
+            <label for="5b">Google</label>
+            <input type="radio" name="quiz5" id="5b">
+            <br>
+            <label for="5c">Bing</label>
+            <input type="radio" name="quiz5" id="5c">
+            <br>
+            <br>
+            <br>
+
+            <input type="button" value="Controlla" onclick="Check();">
+            <h2 id="result">?/5</h2>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>pagina 2</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='math.js'></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/8.1.1/math.js" integrity="sha512-OFr0yNTrn4TBOCW8hAkqVRjN45OYD4C3Zv3JA+/UFDW7rEjt7RV89OfUinLg/9GzHbUWYq1+jXzgVV/UsZWJHQ==" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">pagina 1</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="pagina2.html">pagina 2</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="pagina3.html">pagina 3</a>
+                  </li>
+              </ul>
+            </div>
+          </nav>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div>
+          <div class="card" style="width: 15%; height: 275px; margin: auto; text-align: center; float: left; margin-left: 25%;">
+            <div class="card-body">
+              <h5 class="card-title">mcm</h5>
+              <label for="input" style="margin-bottom: 10px;">inserisci i numeri dei quali calcolare il minimo comune multiplo: </label>
+              <input type="text" id="input1" style="margin-bottom: 10px;">
+              <input type="text" id="input2" style="margin-bottom: 10px;">
+              <button type="button" onclick="calcolamcm();" class="btn btn-primary">calcola</button>
+            </div>
+          </div>
+          <div class="card" style="width: 15%; height: 300px; margin: auto; text-align: center; float: right; margin-right: 25%;">
+            <div class="card-body">              
+            <h5 class="card-title">MCD</h5>
+            <label for="input" style="margin-bottom: 10px;">inserisci i numeri dei quali calcolare il massimo comune denominatore: </label>
+            <input type="text" id="input3" style="margin-bottom: 10px;">
+            <input type="text" id="input4" style="margin-bottom: 10px;">
+            <button type="button" onclick="calcolaMCD();" class="btn btn-primary">calcola</button>
+            </div>
+          </div>
+    </div>
+</body>
+</html>
